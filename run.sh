@@ -1,1 +1,1 @@
-docker run --platform linux/amd64 -p 3000:3000 tonwhales/validator-connector:v1
+docker run --platform linux/amd64 -p 3000:3000 tonwhales/validator-connector:v2

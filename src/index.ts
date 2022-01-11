@@ -53,7 +53,7 @@ async function handleCommand(args: { clientSecret: Buffer, serverPublic: Buffer,
                     endpoint: body.endpoint,
                     command: body.command
                 });
-                res.status(500).send({
+                res.status(200).send({
                     ok: true,
                     response
                 });

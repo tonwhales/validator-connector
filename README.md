@@ -5,7 +5,7 @@ A simple docker container that can proxy requests to `validator-console` via sim
 # How to use
 
 ```bash
-docker run -p 3000:3000 tonwhales/validator-connector:v1
+docker run -p 3000:3000 tonwhales/validator-connector:v2
 ```
 
 Then do HTTP POST with body:

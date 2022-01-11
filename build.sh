@@ -1,1 +1,1 @@
-docker build --platform=linux/amd64 -t tonwhales/validator-connector:v1 .
+docker build --platform=linux/amd64 -t tonwhales/validator-connector:v2 .
